@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>venue</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-left">
+                <img src="./logo.png" width="150px" alt="logo not found">
+                <label for="check"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <input type="checkbox" id="check">
+            <div class="nav-right">
+                <li type="none"><a href="#popular" class="nav-element">Popular</a></li>
+                <li type="none"><a href="#" class="nav-element">Most Visited <i class="fa-solid fa-caret-down"></i></a>
+                </li>
+                <li type="none"><a href="#feature" class="nav-element">Blog Entries</a></li>
+                <li type="none"><a href="#service-id" class="nav-element">Our Services</a></li>
+                <li type="none"><a href="#contact-id" class="nav-element">Contact Us</a></li>
+            </div>
+        </div>
+    </header>
+    <section class="main-banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="adjust col-12">
+                    <div class="banner-content">
+                        <h1>Best Finder For You</h1><br>
+                        <p>Suspendisse eu lorem massa. Integer sit amet possure tellus.</p><br><br>
+                        <button class="dis-btn">Discover More</button><br>
+                    </div>
+                </div>
+                <div class="submit col-12">
+                    <div class="submit-form">
+                        <form action="" method="get">
+
+                            <input type="text" style="border: 0px;" placeholder="Your name...">
+
+                        </form>
+                    </div>
+                    <div class="submit-form">
+                        <form action="" method="get">
+
+                            <input type="text" style="border: 0px;" placeholder="Your name...">
+
+                        </form>
+                    </div>
+                    <select name="sel" id="sel" style="border: 0px;">
+                        <option value="select">Select Category</option>
+                        <option value="shops">Shops </option>
+                        <option value="Hotels">Hotels</option>
+
+                    </select>
+                    <button style="background-color: rgb(23, 164, 211); border: 0px; color: #ffffff;" id="btn1">Search
+                        Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="Popular-section" id="popular">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="pop col-12">
+                    <div class="popular-content">
+                        <p style="text-align: center; color: rgb(23, 164, 211);">Popular places</p>
+                        <h3 style="text-align: center;">Integer sapian odio</h3>
+
+                        <div class="main-carousel">
+                            <div class="cell"><img src="../css-Project.html/popular_item_1.jpg" alt="">
+                            <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Maruies tempus</h5>
+                                    <p>76 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p style="padding: 8px; border: 1px solid white;">+</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_2.jpg" alt="">
+                                <div class="scroll">
+                                    <div class="scroll-1">
+                                        <h5>Aenean dolor</h5>
+                                        <p>18 listings</p>
+                                    </div>
+                                    <div class="scroll-1">
+                                        <p>symbol</p>
+                                    </div>
+                                </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_3.jpg" alt="">
+                                <div class="scroll">
+                                    <div class="scroll-1">
+                                        <h5>Nunc at quam</h5>
+                                        <p>55 listings</p>
+                                    </div>
+                                    <div class="scroll-1">
+                                        <p>symbol</p>
+                                    </div>
+                                </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_4.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Fusce ac turpis</h5>
+                                    <p>66 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_5.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>82 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_1.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Praesent nec</h5>
+                                    <p>76 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_2.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Suspendisse</h5>
+                                    <p>36 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_3.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Bibendum</h5>
+                                    <p>48 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_4.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Quisque sodales</h5>
+                                    <p>66 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>symbol</p>
+                                </div>
+                            </div></div>
+                            <div class="cell"><img src="../css-Project.html/popular_item_5.jpg" alt="">
+                             <div class="scroll">
+                                <div class="scroll-1">
+                                    <h5>Pellentesque</h5>
+                                    <p>85 listings</p>
+                                </div>
+                                <div class="scroll-1">
+                                    <p>+</p>
+                                </div>
+                            </div></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature-sec" id="feature">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="feature col-12">
+                    <div class="text">
+                        <p style="text-align: center; color: rgb(23, 164, 211);">Featured Places</p>
+                        <h3 style="text-align: center;">Praesent nec dui sed urna</h3>
+                    </div>
+                    <div class="feature-places">
+
+                        <div class="card1">
+                            <img src="./featured_item_1.jpg" width="100%" alt=""><br><br>
+                            <h3 style="font-size: 22px; font-family: sans-serif;">Lorem ipsum dolor</h3>
+                            <p style="color:  rgb(23, 164, 211);">Category One</p>
+                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui
+                                pulvinar imperdiet. Nunc consectetur.</p><br>
+                            <button class="card-btn">Add to favorites</button> <button class="card-btn">Continue
+                                reading</button>
+                        </div>
+                        <div class="card1">
+                            <img src="./featured_item_2.jpg" width="100%" alt=""><br><br>
+                            <h3 style="font-size: 22px; ">Nullam nibh lacus</h3>
+                            <p style="color:  rgb(23, 164, 211);">Category Two</p>
+                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui
+                                pulvinar imperdiet. Nunc consectetur.</p><br>
+                            <button class="card-btn">Add to favorites</button> <button class="card-btn">Continue
+                                reading</button>
+                        </div>
+                        <div class="card1">
+                            <img src="./featured_item_3.jpg" width="100%" alt=""><br><br>
+                            <h3 style="font-size: 22px;">Suspendisse semper non</h3>
+                            <p style="color:  rgb(23, 164, 211);">Category Three</p>
+                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui
+                                pulvinar imperdiet. Nunc consectetur.</p><br>
+                            <button class="card-btn">Add to favorites</button> <button class="card-btn">Continue
+                                reading</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-sec" id="service-id">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="service">
+                    <div class="text col-12">
+                        <p style="text-align: center; color: rgb(23, 164, 211);">Our Services</p>
+                        <h3 style="text-align: center;">Best Template Site</h3>
+                    </div>
+                    <div class="services-cards">
+                        <div class="service-card">
+                            <img src="./service_icon_1.png" alt=""><br>
+                            <h3>High Quality Design</h3><br><br>
+                            <p style="font-size: 15px;">Etiam viverra nibh at lorem hendrerit porta non nec ligula.
+                                Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus</p>
+                        </div>
+                        <div class="service-card">
+                            <img src="./service_icon_2.png" alt=""><br>
+                            <h3>Fully Customizable</h3><br>
+                            <p style="font-size: 15px;">Etiam viverra nibh at lorem hendrerit porta non nec ligula.
+                                Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus</p>
+
+                        </div>
+                        <div class="service-card">
+                            <img src="./service_icon_3.png" alt=""><br>
+                            <h3>Best HTML CSS Layout</h3><br>
+                            <p style="font-size: 15px;">Etiam viverra nibh at lorem hendrerit porta non nec ligula.
+                                Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus</p>
+
+                        </div>
+                    </div>
+                    <hr width="80%">
+                    <div class="sub-services">
+                        <div class="sub-1">
+                            <h3>In hac habitasse platea dictumst</h3>
+                            <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem
+                                semper, <br> lobortis mauris non, varius urna. Quisque sodales <br> purus eu tellus
+                                fringilla.</p>
+
+                            <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem
+                                semper, <br> lobortis mauris non, varius urna. Quisque sodales <br> purus eu tellus
+                                fringilla.</p>
+                            <button>Discover More</button>
+                        </div>
+                        <div class="sub-2">
+                            <h3>In hac habitasse platea dictumst <button><i
+                                        class="fa-regular fa-circle dot"></i></button>
+                                <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor
+                                    volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur
+                                    neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+                            </h3>
+                            <h3>In hac habitasse platea dictumst <button><i
+                                        class="fa-regular fa-circle dot"></i></button>
+                                <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor
+                                    volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur
+                                    neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+                            </h3>
+                            <h3>In hac habitasse platea dictumst <button><i
+                                        class="fa-regular fa-circle dot"></i></button>
+                                <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor
+                                    volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur
+                                    neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="video-sec">
+        <div class="container-fluid">
+            <div class="videoframe">
+                <div class="video-1">
+                    <iframe src="https://cdn.pixabay.com/video/2021/09/02/87253-601148384_tiny.mp4" class="iframe-1"
+                        frameborder="0"></iframe>
+                    <!-- <video autoplay>
+                        <source src="https://cdn.pixabay.com/video/2021/09/02/87253-601148384_tiny.mp4" type="video/mp4">
+                    </video> -->
+                    <div class="presentation">
+                        <p style="font-size: 18px;">video presentation</p>
+                        <p style="font-size: 18px;">Sed et risus ac sapien congue mattis.</p>
+                        <i class="fa-regular fa-circle-play play-btn"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="price-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="prices">
+                    <p style="text-align: center; color: rgb(8, 90, 117);">Pricing Tables</p>
+                    <h3 style="text-align: center;">Integer sapian odio</h3><br><br>
+                    <div class="price-cards">
+                        <div class="price-box">
+                            <div class="top-box">
+                                <p>Starter Plan</p>
+                                <p>$25</p>
+                                <p>/monthly</p>
+                            </div>
+                            <div class="price-para">
+                                <p style="text-align: center;">
+                                    100 Suspendisse dapibus<br><br>
+                                    10x Paleo celiac enamel<br><br>
+                                    Williamsburg organic post ironic<br><br>
+                                    Helvetica pinterest yuccie<br><br>
+                                    Plaid shabby chic godard<br><br>
+                                </p>
+                                <button class="price-btn">Buy It Now</button>
+                            </div>
+                        </div>
+                        <div class="price-box">
+                            <div class="top-box">
+                                <p>Starter Plan</p>
+                                <p>$25</p>
+                                <p>/monthly</p>
+                            </div>
+                            <div class="price-para">
+                                <p style="text-align: center;">
+                                    100 Suspendisse dapibus<br><br>
+                                    10x Paleo celiac enamel<br><br>
+                                    Williamsburg organic post ironic<br><br>
+                                    Helvetica pinterest yuccie<br><br>
+                                    Plaid shabby chic godard<br><br>
+                                </p>
+                                <button class="price-btn">Buy It Now</button>
+                            </div>
+                        </div>
+                        <div class="price-box">
+                            <div class="top-box">
+                                <p>Starter Plan</p>
+                                <p>$25</p>
+                                <p>/monthly</p>
+                            </div>
+                            <div class="price-para">
+                                <p style="text-align: center;">
+                                    100 Suspendisse dapibus<br><br>
+                                    10x Paleo celiac enamel<br><br>
+                                    Williamsburg organic post ironic<br><br>
+                                    Helvetica pinterest yuccie<br><br>
+                                    Plaid shabby chic godard<br><br>
+                                </p>
+                                <button class="price-btn">Buy It Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17075284.639523428!2d-9.477111406863592!3d8.999764740667048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi%20Central%20Market!5e0!3m2!1sen!2sin!4v1723268116861!5m2!1sen!2sin"
+                        class="iframe-2" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-sec" id="contact-id">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="foot">
+                    <div class="contact-h1">
+                        <p style="text-align: center; color: rgb(8, 90, 117);">Contact Us</p>
+                        <h3 style="text-align: center;">Integer sapian odio</h3><br>
+                        <button class="contact-btn">Talk To Us</button>
+                    </div>
+                    <hr>
+                    <div class="contact-links">
+                        <div class="c-logo">
+                            <img src="./footer_logo.png" width="150px" alt=""><br><br>
+                            <p style="font-size: 15px; line-height: 30px;">Mauris sit amet quam congue, pulvinar urna
+                                et, congue diam. Suspendisse <br>eu lorem massa. Integer sit amet posuere tellus, id
+                                efficitur leo. In hac<br> habitasse platea dictumst</p>
+                            <div class="foot-icons">
+                                <i class="fa-brands fa-facebook face-icon"></i>
+                                <i class="fa-brands fa-twitter face-icon"></i>
+                                <i class="fa-brands fa-linkedin-in face-icon"></i>
+                                <i class="fa-solid fa-wifi face-icon"></i>
+                                <i class="fa-solid fa-basketball face-icon"></i>
+                            </div>
+                        </div>
+                        <div class="useful-links">
+                            <h3>Useful Links</h3>
+                            <div class="main">
+                                <ul type="square" class="li-color">
+                                    <li>Help FAQs</li>
+                                    <li>Register</li>
+                                    <li>Login</li>
+                                    <li>My Profile</li>
+                                    <li>How It Works?</li>
+                                    <li>More About Us</li>
+                                    <li>Our clients</li>
+                                    <li>Partnership</li>
+                                    <li>Blog Entries</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                            <div class="useful-links-1">
+                                <ul type="square" class="li-color">
+                                    <li>Our clients</li>
+                                    <li>Partnership</li>
+                                    <li>Blog Entries</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Contact Information</h3>
+                            <p style="line-height: 30px;">Praesent iaculis gravida elementum. Proin <br>fermentum neque
+                                facilisis semper pharetra.<br> Sed vestibulum vehicula tincidunt</p>
+                            <p>phone:&emsp;<span style="color: rgb(22, 128, 214);">010-050-0550</span></p>
+                            <p>Email:&emsp;<span style="color: rgb(22, 128, 214);"></span>hi@company.co</span></p>
+                            <p>Address:&emsp;<span style="color: rgb(22, 128, 214);"></span>company.co</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freescroll: true
+        });
+    </script>
+</body>
+
+</html>
